@@ -7,8 +7,8 @@ html{
   }
   
   header a{
-    color: whitesmoke;
-     border: solid 1px gray;
+    color: blue;
+     border: solid 1px black;
   }
 
   header a:hover{
