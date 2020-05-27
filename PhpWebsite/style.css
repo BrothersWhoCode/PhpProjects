@@ -8,7 +8,7 @@ html{
   
   header a{
     color: whitesmoke;
-    
+     border: solid 1px gray;
   }
 
   header a:hover{
