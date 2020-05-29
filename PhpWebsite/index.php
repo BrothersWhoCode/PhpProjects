@@ -30,13 +30,12 @@ $submit = $_POST["submit"];
 <body>
 <header>
 <h1>Myths</h1>
-<img src="" alt="">
+<?php echo "<h3>{$User_name}</h3>"?>
 <ul class="links">
 <li><a href="#">Storys</a></li>
 <li><a href="#">About</a></li>
 <li><a class="Log" href="#">Login</a></li>
 <li><a class="sign" onclick="form()">Sign up</a></li>
-<?php echo "<h3>{$User_name}</h3>"?>
 </ul>
 </header>
 <section class="form">
@@ -53,8 +52,29 @@ $submit = $_POST["submit"];
 <hr>
 
 <h1>Top Storys</h1>
+<hr>
 <section class="top">
-<input type="image" src="" alt="">
+
+<section class="siren">
+<input type="image" src="https://vignette.wikia.nocookie.net/villains/images/8/8d/Sirens_H.jpg/revision/latest?cb=20200207232014" alt="" class="image">
+<h1>Siren Head</h1>
+</section>
+
+<section class="siren">
+<input type="image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d799fcc0-5e66-4952-a373-fc85200d57a3/dbouo74-8d5c0754-a66b-44b8-9d9c-206a67bd985f.png/v1/fill/w_1024,h_1034,q_80,strp/scp_096_by_cinemamind_dbouo74-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMDM0IiwicGF0aCI6IlwvZlwvZDc5OWZjYzAtNWU2Ni00OTUyLWEzNzMtZmM4NTIwMGQ1N2EzXC9kYm91bzc0LThkNWMwNzU0LWE2NmItNDRiOC05ZDljLTIwNmE2N2JkOTg1Zi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.8iuwHaR3RGppPqF-CG8OlaZyYr6Sr957LzUuG4a4_is" alt="" class="image">
+<h1>Scp 096</h1>
+</section>
+
+<section class="siren">
+<input type="image" src="https://vignette.wikia.nocookie.net/villains/images/1/13/SCP-106Full.jpg/revision/latest?cb=20200327173347" alt="" class="image">
+<h1>Scp 106</h1>
+</section>
+
+<section class="siren">
+<input type="image" src="https://vignette.wikia.nocookie.net/villains/images/8/8d/Sirens_H.jpg/revision/latest?cb=20200207232014" alt="" class="image">
+<h1>Siren Head</h1>
+</section>
+
 </section>
 
 <footer>
@@ -76,6 +96,7 @@ html{
     color:#091f36;
     position:relative;
     bottom:40px;
+    left:30px;
   }
 
   header a:hover{
@@ -86,7 +107,7 @@ html{
   
   .links{
       display:grid;
-      grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
   }
   
   li{
@@ -109,6 +130,7 @@ html{
   .form{
     position: relative;
     left: 1400px;
+    
   }
 
 h1{
@@ -116,7 +138,7 @@ h1{
 }
 
 h3{
-  color:white;
+  color:lightblue;
 
 }
 
@@ -147,7 +169,17 @@ h3{
   outline:none;
 }
 
+.image{
+width:500px;
+height:500px;
+}
+
+.top{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+
 </style>
+
 
 </body>
 </html>

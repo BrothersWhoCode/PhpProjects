@@ -1,9 +1,6 @@
 <?php
 include_once "C:\Documents\projects\php\database.php";
-if($_SERVER['REQUEST_METHOD'] == "POST"){
-$email = $_POST["email"];
-$password = $_POST["password"];
-$User_name = $_POST["User_name"];
+
 
 }
 ?>
